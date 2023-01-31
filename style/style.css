@@ -1,0 +1,99 @@
+
+
+body {
+	margin: 0;
+}
+
+
+main {
+  /*margin: auto;*/
+  text-align: center;
+  background-color: #1A3850;
+  color: white;
+  height: 100vh;
+}
+
+
+
+#stats {
+	display: flex;
+	/*background-color: lightgray;*/
+}
+
+#stats > .row {
+	margin: auto;
+}
+
+
+.s-holder {
+	padding: 2em 0 2em 0;
+	width: 6em;
+	border: grey solid 2px;
+	border-radius: 15px;
+	height: 10vh;
+	margin: .25em;
+}
+
+/* gpt css */
+.pc {
+
+	
+	background-color: white;
+	color: black;
+	width: 100%;
+	height: 100px;
+
+	font-size: 2rem;
+	position: relative;
+	line-height: 4;
+	display: flex;
+	padding: 0;
+	border-radius: 10px;
+  }
+  
+  /* this is the div that will recive the text */
+  #text-reciver {
+	  /* width: 50%;
+	  height: 100%;
+	  background-color: olivedrab;
+	  position: absolute;
+	  top: 0;
+	  right: 0; */
+
+	  float: right;
+	  white-space: nowrap;
+	  text-align: right;
+	  display: flex;
+	}
+
+  #ta {
+	/* width: 100%;
+	height: 100%;
+	resize: none;
+	overflow: hidden;
+	 */
+
+	 background-color: tan;
+	 display: inline-block;
+	 padding-left: 0.25rem;
+	outline: none;
+
+  }
+
+
+  /* class for left and right side */
+  .box {
+	width: 50%;
+	overflow: hidden;
+  }
+
+  #left {
+	  /* background-color: red; */
+	  
+  }
+
+  #right {
+	  /* background-color: blue; */
+
+  }
+
